@@ -4,14 +4,14 @@
 
 ## 项目结构
 
-### Lab 1 - 图像插值算法 (Image Interpolation)
+### Image Interpolation - 图像插值算法
 - **最近邻插值** (`nearest_yujincheng.py`)
 - **双线性插值** (`bilinear_yujincheng.py`) 
 - **双三次插值** (`bicubic_yujincheng.py`)
 
 实现了三种经典的图像插值算法，用于图像的放大和缩小操作。
 
-### Lab 2 - 直方图处理与空间变换 (Histogram Processing & Spatial Transforms)
+### Spatial Transforms - 直方图处理与空间变换
 - **直方图均衡化** (`hist_equ_12012223.py`)
 - **局部直方图均衡化** (`hist_local_equ_12012223.py`)
 - **直方图匹配** (`hist_match_12012223.py`)
@@ -19,19 +19,19 @@
 
 包含直方图相关的图像增强算法和空间变换操作。
 
-### Lab 3 - 锐化滤波器 (Sharpening Filters)
+### Sharpen Filter - 锐化滤波器
 - **锐化滤波器实现** (`Sharpening_Filters.py`)
 
 实现了图像锐化算法，用于增强图像的边缘和细节信息。
 
-### Lab 4 - 频域滤波 (Frequency Domain Filtering)
+### Frequency Domain Filter - 频域滤波
 - **Sobel频域滤波** (`Sobel_freq.py`)
 - **Sobel空域滤波** (`Sobel_spac.py`)
 - **巴特沃斯陷波滤波器** (`Butterworth_notch.py`)
 
 实现了频域和空域的滤波算法，包括边缘检测和噪声抑制。
 
-### Lab 6 - 图像恢复 (Image Restoration)
+### Image Restoration - 图像恢复
 - **噪声滤波** (`noise_filter.py`)
 - **图像恢复** (`restore_image.py`)
 
@@ -52,11 +52,11 @@ pip install opencv-python numpy matplotlib scipy
 ## 使用方法
 每个实验文件夹都包含相应的Python脚本，可以直接运行：
 ```bash
-python lab1/nearest_yujincheng.py
-python lab2/hist_equ_12012223.py
-python lab3/Sharpening_Filters.py
-python lab4/Sobel_freq.py
-python lab6/noise_filter.py
+python "Image Interpolation/nearest_yujincheng.py"
+python "Spatial Transforms/function_喻锦城_12012223/hist_equ_12012223.py"
+python "Sharpen Filter/Sharpening_Filters.py"
+python "Frequency Domain Filter/Sobel_freq.py"
+python "Image Restoration/noise_filter.py"
 ```
 
 ## 实验内容
