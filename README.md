@@ -67,7 +67,7 @@ python "Image Restoration/noise_filter.py"
 - **图像恢复**: 噪声去除、图像修复
 
 ## 作者
-喻锦城 (12012223)
+喻锦城
 
 ## 许可证
 本项目仅用于学习和研究目的。
